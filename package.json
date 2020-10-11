@@ -1,0 +1,26 @@
+{
+  "name": "andrewhick-test",
+  "version": "1.0.0",
+  "description": "Cypress proof of concept with andrewhick.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewhick/andrewhick-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewhick/andrewhick-test/issues"
+  },
+  "homepage": "https://github.com/andrewhick/andrewhick-test#readme",
+  "devDependencies": {
+    "cypress": "^5.3.0"
+  },
+  "dependencies": {
+    "axe-core": "^4.0.2",
+    "cypress-axe": "^0.8.1"
+  }
+}

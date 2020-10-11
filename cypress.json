@@ -1,0 +1,6 @@
+{
+    "_baseUrlAlternative" : "https://www.gov.uk/guidance/register-your-waste-exemptions-environmental-permits",
+    "baseUrl" : "https://www.andrewhick.com",
+    "defaultCommandTimeout" : 5000,
+    "watchForFileChanges": false
+}
