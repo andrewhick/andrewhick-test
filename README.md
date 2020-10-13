@@ -1,4 +1,4 @@
-# andrewhick.com Cypress and Axe test suite
+# andrewhick.com test suite
 
 Cypress and Axe proof of concept with andrewhick.com
 
@@ -42,6 +42,8 @@ describe('Hello world', () => {
 ```
 
 ### Set up Git
+
+Skip this section if you are not interested in publishing your repository to GitHub.
 
 [Karl Broman's tutorial](https://kbroman.org/github_tutorial/pages/init.html)
 
