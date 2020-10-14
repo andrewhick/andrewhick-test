@@ -100,6 +100,12 @@ Based on [Tim Deschryver's tutorial](https://timdeschryver.dev/blog/setting-up-c
 
 By this stage you should hopefully have a basic, working test suite. Run it with `npx cypress run` and check the outputs.
 
+### Convert shared functions to custom commands
+
+If you plan to reuse functions such as the violation callback and your customised `cy.checkA11y()` function, then you will save time and make your tests more readable by converting them to custom commands.
+
+See [/cypress/support/commands.js](./cypress/support/commands.js) to see how they have been implemented here.
+
 ## Pitfalls
 
 ### 1 accessibility violation was detected: expected 1 to equal 0
