@@ -18,5 +18,8 @@ context('Navigation test', () => {
     cy.get('title').should('contain', 'Andrew Hick | Professional portfolio')
     cy.get('h3').should('contain', 'Register as a waste carrier')
     cy.checkCustomA11y()
+
+    // Design page
+    cy.get('[href="../design/"]').first().click()
   })
 })

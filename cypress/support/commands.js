@@ -52,17 +52,20 @@ Cypress.Commands.add('terminalLog', (violations) => {
 
 Cypress.Commands.add('checkCustomA11y', () => {
     cy.injectAxe()
+    // cy.configureAxe({})
+    cy.wait(1000) // wait for any animations to complete
     cy.checkA11y(
         // checkA11y format based on examples of usage:
         // https://www.npmjs.com/package/cypress-axe#cychecka11y
 
         null,
-        { // Specify that only WCAG 2.1 rules to levels A and AA will be tested for:
-          runOnly: {
-            type: 'tag',
-            values: ['wcag21a', 'wcag21aa']
-          }
-        },
+        // { // Specify that only WCAG 2.1 rules to levels A and AA will be tested for:
+        //   runOnly: {
+        //     type: 'tag',
+        //     values: ['wcag21a', 'wcag21aa']
+        //   },
+        // },
+        null,
         cy.terminalLog
       )
 })
